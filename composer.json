@@ -1,0 +1,23 @@
+{
+    "name": "jesus.calle/logify-client",
+    "description": "Client for Logify Log Server",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JesusCalle\\LogifyClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jesus.calle",
+            "email": "jesus.calle@securitasdirect.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "guzzlehttp/guzzle": ">=1.0",
+        "vlucas/phpdotenv": ">=1.0"
+    }
+}
